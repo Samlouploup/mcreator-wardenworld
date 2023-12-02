@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "warden_world:wither_talisman"
+    },
+    "title": {
+      "translate": "advancements.wither_hunter.title"
+    },
+    "description": {
+      "translate": "advancements.wither_hunter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wither_hunter": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "loot": [
+      "warden_world:success_6"
+    ]
+  },
+  "parent": "warden_world:kill_the_lord"
+}

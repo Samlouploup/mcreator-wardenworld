@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "warden_world:sculk_sword"
+    },
+    "title": {
+      "translate": "advancements.killsculk_mobs.title"
+    },
+    "description": {
+      "translate": "advancements.killsculk_mobs.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killsculk_mobs": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "loot": [
+      "warden_world:success_4"
+    ]
+  },
+  "parent": "warden_world:the_deeper_dimension"
+}

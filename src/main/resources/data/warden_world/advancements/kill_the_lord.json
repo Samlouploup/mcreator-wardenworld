@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "warden_world:warden_lords_belt"
+    },
+    "title": {
+      "translate": "advancements.kill_the_lord.title"
+    },
+    "description": {
+      "translate": "advancements.kill_the_lord.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_the_lord": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "loot": [
+      "warden_world:success_5"
+    ]
+  },
+  "parent": "warden_world:kill_the_warden"
+}

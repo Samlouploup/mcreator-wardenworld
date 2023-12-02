@@ -1,0 +1,43 @@
+{
+  "_fv": 43,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "deep_dark"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DEEPSLATE"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:DeepWater"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": true,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.REINFORCED_DEEPSLATE"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Warden Horn",
+    "igniterTab": {
+      "value": "MATERIALS"
+    },
+    "texture": "wardenhorn",
+    "portalTexture": "portalbloc",
+    "enablePortal": true
+  }
+}

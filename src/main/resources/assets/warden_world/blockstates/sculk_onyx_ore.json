@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "warden_world:block/sculk_onyx_ore"
+    }
+  }
+}

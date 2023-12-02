@@ -1,0 +1,46 @@
+{
+  "_fv": 43,
+  "_type": "fluid",
+  "definition": {
+    "name": "Deep Water",
+    "bucketName": "Deep Water Bucket",
+    "textureStill": "deepwater",
+    "textureFlowing": "deepwater",
+    "tintType": "Sky",
+    "canMultiply": true,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 3,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "FALLING_OBSIDIAN_TEAR"
+    },
+    "flowStrength": -1.0,
+    "luminosity": 5,
+    "density": 555,
+    "viscosity": 2000,
+    "temperature": 100,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "emptySound": {
+      "value": "block.sculk_sensor.clicking_stop"
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": true,
+    "tickRate": 20,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "onTickUpdate": {
+      "name": "DeepWaterMiseAJourDuTick"
+    }
+  }
+}

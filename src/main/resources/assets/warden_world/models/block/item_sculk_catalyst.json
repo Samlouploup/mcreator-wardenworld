@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "warden_world:blocks/catalyst",
+    "up": "warden_world:blocks/catalyst",
+    "north": "warden_world:blocks/calyseur",
+    "east": "warden_world:blocks/calyseur",
+    "south": "warden_world:blocks/calyseur",
+    "west": "warden_world:blocks/calyseur",
+    "particle": "warden_world:blocks/catalyst"
+  },
+  "render_type": "cutout_mipped"
+}

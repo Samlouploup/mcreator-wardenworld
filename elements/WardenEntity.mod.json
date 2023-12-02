@@ -1,0 +1,42 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:LittleWarden"
+      },
+      {
+        "value": "CUSTOM:SculkCreeper"
+      },
+      {
+        "value": "CUSTOM:TheSculkLord"
+      },
+      {
+        "value": "CUSTOM:WardenWither"
+      },
+      {
+        "value": "EntityWarden"
+      },
+      {
+        "value": "CUSTOM:SculkSpider"
+      },
+      {
+        "value": "CUSTOM:WardenCat"
+      },
+      {
+        "value": "CUSTOM:SculkGuardian"
+      },
+      {
+        "value": "CUSTOM:SculkBlaze"
+      }
+    ],
+    "biomes": [],
+    "name": "warden_entity",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Warden fever",
+    "icon": "fever.png",
+    "color": {
+      "value": -16773266,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "WardenFeverQuandLeffetCommenceEstApplique"
+    },
+    "onActiveTick": {
+      "name": "WardenFeverTickActifSurEffet"
+    },
+    "onExpired": {
+      "name": "WardenFeverQuandLeffetExpire"
+    }
+  }
+}

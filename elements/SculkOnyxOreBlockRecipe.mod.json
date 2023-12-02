@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SculkOnyx"
+      },
+      {
+        "value": "CUSTOM:SculkOnyx"
+      },
+      {
+        "value": "CUSTOM:SculkOnyx"
+      },
+      {
+        "value": "CUSTOM:SculkOnyx"
+      },
+      {
+        "value": "CUSTOM:SculkOnyx"
+      },
+      {
+        "value": "CUSTOM:SculkOnyx"
+      },
+      {
+        "value": "CUSTOM:SculkOnyx"
+      },
+      {
+        "value": "CUSTOM:SculkOnyx"
+      },
+      {
+        "value": "CUSTOM:SculkOnyx"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SculkOnyxBlock"
+    },
+    "name": "sculk_onyx_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

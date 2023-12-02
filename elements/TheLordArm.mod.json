@@ -1,0 +1,30 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "arm",
+    "customModelName": "Normal",
+    "name": "The Lord's Arm",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 12.0,
+    "attackSpeed": 1.9000000000000001,
+    "enchantability": 22,
+    "damageVsEntity": 12.0,
+    "usageCount": 16384,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "TheLordArmLivingEntityIsHitWithTool"
+    }
+  }
+}

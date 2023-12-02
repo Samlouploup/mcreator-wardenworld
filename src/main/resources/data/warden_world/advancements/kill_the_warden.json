@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "warden_world:warden_skin"
+    },
+    "title": {
+      "translate": "advancements.kill_the_warden.title"
+    },
+    "description": {
+      "translate": "advancements.kill_the_warden.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_the_warden": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "loot": [
+      "warden_world:success_3"
+    ],
+    "recipes": [
+      "warden_world:warden_hide_helmet_recipe",
+      "warden_world:warden_hide_body_recipe",
+      "warden_world:warden_hide_leggings_recipe",
+      "warden_world:warden_hide_boots_recipe"
+    ]
+  },
+  "parent": "warden_world:killsculk_mobs"
+}

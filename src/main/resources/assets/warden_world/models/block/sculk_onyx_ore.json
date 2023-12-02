@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "warden_world:blocks/sculkonyx_ore",
+    "particle": "warden_world:blocks/sculkonyx_ore"
+  },
+  "render_type": "solid"
+}

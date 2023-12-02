@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "warden_world:deep_water_squid",
+    "weight": 40,
+    "minCount": 8,
+    "maxCount": 16
+  }
+}

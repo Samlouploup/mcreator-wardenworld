@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "warden_world:sculk_onyx_block"
+    }
+  ],
+  "result": {
+    "item": "warden_world:sculk_onyx",
+    "count": 9
+  }
+}

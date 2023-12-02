@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sculk"
+    },
+    "1": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "2": {
+      "item": "minecraft:sculk"
+    },
+    "3": {
+      "item": "minecraft:sculk"
+    },
+    "4": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "5": {
+      "item": "minecraft:sculk"
+    },
+    "6": {
+      "item": "minecraft:sculk"
+    },
+    "7": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "8": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "result": {
+    "item": "warden_world:item_sculk_catalyst",
+    "count": 1
+  }
+}

@@ -1,0 +1,1406 @@
+{
+  "mod_elements": [
+    {
+      "name": "DeepWater",
+      "type": "fluid",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/deep_water_bucket.json",
+          "src/main/resources/assets/warden_world/models/block/deep_water.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/block/DeepWaterBlock.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/fluid/types/DeepWaterFluidType.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/DeepWaterItem.java",
+          "src/main/resources/assets/warden_world/blockstates/deep_water.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/fluid/DeepWaterFluid.java"
+        ]
+      }
+    },
+    {
+      "name": "WardenWorld",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/block/warden_world_portal_ew.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/world/dimension/WardenWorldDimension.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/world/teleporter/WardenWorldPortalShape.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/block/WardenWorldPortalBlock.java",
+          "src/main/resources/data/warden_world/dimension_type/warden_world.json",
+          "src/main/resources/assets/warden_world/blockstates/warden_world_portal.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/world/teleporter/WardenWorldTeleporter.java",
+          "src/main/resources/assets/warden_world/models/item/warden_world.json",
+          "src/main/resources/data/warden_world/dimension/warden_world.json",
+          "src/main/resources/assets/warden_world/models/block/warden_world_portal_ns.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/WardenWorldItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ItemSculkCatalystLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_sculk_catalyst_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/ItemSculkCatalystLorsDunClicDroitSurLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemSculkCatalyst",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_sculk_catalyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/block/item_sculk_catalyst.json",
+          "src/main/resources/assets/warden_world/blockstates/item_sculk_catalyst.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/block/ItemSculkCatalystBlock.java",
+          "src/main/resources/assets/warden_world/models/item/item_sculk_catalyst.json"
+        ]
+      }
+    },
+    {
+      "name": "ItemSculkCatalystRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_sculk_catalyst_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/recipes/item_sculk_catalyst_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Success1",
+      "type": "loottable",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "success_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/entities/success_1.json"
+        ]
+      }
+    },
+    {
+      "name": "TheDeeperDimension",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_deeper_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/advancements/the_deeper_dimension.json"
+        ]
+      }
+    },
+    {
+      "name": "TheSculkLord",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sculk_lord",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/TheSculkLordEntity.java",
+          "src/main/resources/assets/warden_world/models/item/the_sculk_lord_spawn_egg.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/TheSculkLordRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "LittleWarden",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_warden",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/LittleWardenEntity.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/LittleWardenRenderer.java",
+          "src/main/resources/assets/warden_world/models/item/little_warden_spawn_egg.json",
+          "src/main/resources/data/warden_world/forge/biome_modifier/little_warden_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkCreeperQuandLeJoueurEntreEnCollisionAvecLentite",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_creeper_quand_le_joueur_entre_en_collision_avec_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/SculkCreeperQuandLeJoueurEntreEnCollisionAvecLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkCreeper",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_creeper",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/SculkCreeperRenderer.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/SculkCreeperEntity.java",
+          "src/main/resources/assets/warden_world/models/item/sculk_creeper_spawn_egg.json",
+          "src/main/resources/data/warden_world/forge/biome_modifier/sculk_creeper_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenFeverTickActifSurEffet",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_fever_tick_actif_sur_effet",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/WardenFeverTickActifSurEffetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WardenFeverQuandLeffetCommenceEstApplique",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_fever_quand_leffet_commence_est_applique",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/WardenFeverQuandLeffetCommenceEstAppliqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WardenFeverQuandLeffetExpire",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_fever_quand_leffet_expire",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/WardenFeverQuandLeffetExpireProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WardenFever",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_fever",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/potion/WardenFeverMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "TheSculkLordQuandLentiteEstBlessee",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sculk_lord_quand_lentite_est_blessee",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/TheSculkLordQuandLentiteEstBlesseeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LittleWardenQuandLentiteMeurt",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_warden_quand_lentite_meurt",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/LittleWardenQuandLentiteMeurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoundOfWarden",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wound_of_warden",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/enchantment/WoundOfWardenEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "WoundOfWardenProcedure",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wound_of_warden_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/WoundOfWardenProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WardenSkin",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_skin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/warden_skin.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/WardenSkinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Warden",
+      "type": "loottable",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/warden.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenHide",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_hide",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/warden_hide_chestplate.json",
+          "src/main/resources/assets/warden_world/models/item/warden_hide_leggings.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/WardenHideItem.java",
+          "src/main/resources/assets/warden_world/models/item/warden_hide_boots.json",
+          "src/main/resources/assets/warden_world/models/item/warden_hide_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenHideHelmetRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_hide_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/recipes/warden_hide_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenHeart",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/warden_heart.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/WardenHeartItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WardenBone",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_bone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/warden_bone.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/WardenBoneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WardenHideBodyRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_hide_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/recipes/warden_hide_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenHideLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_hide_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/recipes/warden_hide_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenHideBootsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_hide_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/recipes/warden_hide_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkPickaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/sculk_pickaxe.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/SculkPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkSword",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/item/SculkSwordItem.java",
+          "src/main/resources/assets/warden_world/models/item/sculk_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkHoe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/item/SculkHoeItem.java",
+          "src/main/resources/assets/warden_world/models/item/sculk_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sculk",
+      "type": "armor",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/sculk_chestplate.json",
+          "src/main/resources/assets/warden_world/models/item/sculk_boots.json",
+          "src/main/resources/assets/warden_world/models/item/sculk_leggings.json",
+          "src/main/resources/assets/warden_world/models/item/sculk_helmet.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/SculkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LordTemple",
+      "type": "structure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lord_temple",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/world/features/LordTempleFeature.java",
+          "src/main/resources/data/warden_world/forge/biome_modifier/lord_temple_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenTrabsformation",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_trabsformation",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/WardenTrabsformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheSculkLorde",
+      "type": "loottable",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sculk_lorde",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/entities/the_sculk_lord.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenLordsBeltItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_lords_belt_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/WardenLordsBeltItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WardenLordsBelt",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_lords_belt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/warden_lords_belt.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/WardenLordsBeltItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WitherTalisman",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_talisman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/wither_talisman.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/WitherTalismanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheLordArmLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lord_arm_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/TheLordArmLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheLordArm",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lord_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/the_lord_arm.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/TheLordArmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ArmEnchant",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arm_enchant",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/ArmEnchantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WardenWither",
+      "type": "livingentity",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_wither",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/warden_wither_spawn_egg.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/WardenWitherEntity.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/WardenWitherRenderer.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/WardenWitherEntityProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "WardenWitherEffect",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_wither_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/WardenWitherEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitherTalismanRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_talisman_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/WitherTalismanRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WardenWitherEntityIsHurt",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_wither_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/WardenWitherEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkOnyx",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_onyx",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/sculk_onyx.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/item/SculkOnyxItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkOnyxOre",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_onyx_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/forge/biome_modifier/sculk_onyx_ore_biome_modifier.json",
+          "src/main/resources/assets/warden_world/blockstates/sculk_onyx_ore.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/block/SculkOnyxOreBlock.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/world/features/ores/SculkOnyxOreFeature.java",
+          "src/main/resources/assets/warden_world/models/item/sculk_onyx_ore.json",
+          "src/main/resources/assets/warden_world/models/block/sculk_onyx_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkOnyxBlock",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_onyx_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_world/models/item/sculk_onyx_block.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/block/SculkOnyxBlockBlock.java",
+          "src/main/resources/assets/warden_world/models/block/sculk_onyx_block.json",
+          "src/main/resources/assets/warden_world/blockstates/sculk_onyx_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkOnyxOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_onyx_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/recipes/sculk_onyx_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkOnyxBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_onyx_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/recipes/sculk_onyx_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkOnyxOreSmelting",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_onyx_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/recipes/sculk_onyx_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkItem",
+      "type": "achievement",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/advancements/sculk_item.json"
+        ]
+      }
+    },
+    {
+      "name": "Success2",
+      "type": "loottable",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "success_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/success_2.json"
+        ]
+      }
+    },
+    {
+      "name": "KillTheWarden",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_the_warden",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/advancements/kill_the_warden.json"
+        ]
+      }
+    },
+    {
+      "name": "Killthewardenprocedure",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killthewardenprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/KillthewardenprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Success3",
+      "type": "loottable",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "success_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/success_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Success4",
+      "type": "loottable",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "success_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/success_4.json"
+        ]
+      }
+    },
+    {
+      "name": "KillsculkMobs",
+      "type": "achievement",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killsculk_mobs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/advancements/killsculk_mobs.json"
+        ]
+      }
+    },
+    {
+      "name": "Success5",
+      "type": "loottable",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "success_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/success_5.json"
+        ]
+      }
+    },
+    {
+      "name": "KillTheLord",
+      "type": "achievement",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_the_lord",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/advancements/kill_the_lord.json"
+        ]
+      }
+    },
+    {
+      "name": "WitherHunter",
+      "type": "achievement",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_hunter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/advancements/wither_hunter.json"
+        ]
+      }
+    },
+    {
+      "name": "Success6",
+      "type": "loottable",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "success_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/success_6.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenEntity",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_entity",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/entity_types/warden_entity.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkSpiderQuandLentiteEstBlessee",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_spider_quand_lentite_est_blessee",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/SculkSpiderQuandLentiteEstBlesseeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkSpider",
+      "type": "livingentity",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/SculkSpiderRenderer.java",
+          "src/main/resources/data/warden_world/forge/biome_modifier/sculk_spider_biome_modifier.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/SculkSpiderEntity.java",
+          "src/main/resources/assets/warden_world/models/item/sculk_spider_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenCat",
+      "type": "livingentity",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_cat",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/WardenCatRenderer.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/WardenCatEntity.java",
+          "src/main/resources/assets/warden_world/models/item/warden_cat_spawn_egg.json",
+          "src/main/resources/data/warden_world/forge/biome_modifier/warden_cat_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkGuardian",
+      "type": "livingentity",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_guardian",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/SculkGuardianEntity.java",
+          "src/main/resources/assets/warden_world/models/item/sculk_guardian_spawn_egg.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/SculkGuardianRenderer.java",
+          "src/main/resources/data/warden_world/forge/biome_modifier/sculk_guardian_biome_modifier.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/SculkGuardianEntityProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkSpidere",
+      "type": "loottable",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_spidere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/entities/sculk_spider.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkGuardiane",
+      "type": "loottable",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_guardiane",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/entities/sculk_guardian.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkGuardianConditionDapparitionNaturelleDeLentite",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_guardian_condition_dapparition_naturelle_de_lentite",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/SculkGuardianConditionDapparitionNaturelleDeLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepWaterSquid",
+      "type": "livingentity",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_water_squid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/forge/biome_modifier/deep_water_squid_biome_modifier.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/DeepWaterSquidEntity.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/DeepWaterSquidRenderer.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/DeepWaterSquidEntityProjectile.java",
+          "src/main/resources/assets/warden_world/models/item/deep_water_squid_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepWaterSquide",
+      "type": "loottable",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_water_squide",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/entities/deep_water_squid.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepWaterMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_water_mise_a_jour_du_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/procedures/DeepWaterMiseAJourDuTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkBlaze",
+      "type": "livingentity",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_blaze",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/forge/biome_modifier/sculk_blaze_biome_modifier.json",
+          "src/main/resources/assets/warden_world/models/item/sculk_blaze_spawn_egg.json",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/SculkBlazeEntity.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/SculkBlazeRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkyPig",
+      "type": "livingentity",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculky_pig",
+      "metadata": {
+        "files": [
+          "src/main/java/org/samlouploup/mod/wardenworld/client/renderer/SculkyPigRenderer.java",
+          "src/main/java/org/samlouploup/mod/wardenworld/entity/SculkyPigEntity.java",
+          "src/main/resources/assets/warden_world/models/item/sculky_pig_spawn_egg.json",
+          "src/main/resources/data/warden_world/forge/biome_modifier/sculky_pig_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkyPige",
+      "type": "loottable",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculky_pige",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/entities/sculky_pig.json"
+        ]
+      }
+    },
+    {
+      "name": "ItemSculkCatalyste",
+      "type": "loottable",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_sculk_catalyste",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_world/loot_tables/blocks/item_sculk_catalyst.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "wardenmarker",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.warden_world.sculk_pickaxe": "Sculk Pickaxe",
+      "item.warden_world.sculk_hoe": "Sculk Hoe",
+      "item.warden_world.sculk_spider_spawn_egg": "Sculk Spider Spawn Egg",
+      "item.warden_world.warden_skin": "Warden Skin",
+      "item.warden_world.warden_hide_leggings": "Warden Hide Leggings",
+      "item.warden_world.sculk_boots": "Sculk Boots",
+      "item.warden_world.warden_world": "Warden Horn",
+      "entity.warden_world.warden_wither": "Warden Wither",
+      "item.warden_world.warden_hide_boots": "Warden Hide Boots",
+      "entity.warden_world.deep_water_squid": "Deep Water Squid",
+      "item.eee.deep_water_bucket": "Deep Water Bucket",
+      "advancements.wither_hunter.title": "Wither Hunter",
+      "item.eee.warden_world": "Warden Horn",
+      "item.warden_world.warden_hide_helmet": "Warden Hide Helmet",
+      "item.warden_world.sculk_onyx": "SculkOnyx",
+      "block.warden_world.sculk_onyx_block": "Block of SculkOnyx",
+      "entity.warden_world.sculk_guardian": "Sculk Guardian",
+      "entity.warden_world.little_warden": "Little Warden",
+      "block.warden_world.deep_water": "Deep Water",
+      "advancements.sculk_item.title": "Sculk Item",
+      "entity.warden_world.sculk_spider": "Sculk Spider",
+      "item.warden_world.sculky_pig_spawn_egg": "Sculky Pig Spawn Egg",
+      "item.warden_world.warden_cat_spawn_egg": "Warden Cat Spawn Egg",
+      "entity.warden_world.warden_cat": "Warden Cat",
+      "item.warden_world.deep_water_squid_spawn_egg": "Deep Water Squid Spawn Egg",
+      "advancements.kill_the_lord.descr": "kill the sculk lord",
+      "advancements.kill_the_warden.descr": "Kill the warden",
+      "advancements.killsculk_mobs.descr": "kill an warden mob",
+      "effect.warden_world.warden_fever": "Warden fever",
+      "block.warden_world.sculk_onyx_ore": "SculkOnyx Ore",
+      "item.warden_world.little_warden_spawn_egg": "Little Warden Spawn Egg",
+      "item.warden_world.the_lord_arm": "The Lord\u0027s Arm",
+      "item.warden_world.sculk_blaze_spawn_egg": "Sculk Blaze Spawn Egg",
+      "item.warden_world.the_sculk_lord_spawn_egg": "The Sculk Lord Spawn Egg",
+      "item.warden_world.deep_water_bucket": "Deep Water Bucket",
+      "item.warden_world.wither_talisman": "Wither Talisman",
+      "item.warden_world.sculk_chestplate": "Sculk Chestplate",
+      "entity.warden_world.the_sculk_lord": "The Sculk Lord",
+      "item.warden_world.sculk_leggings": "Sculk Leggings",
+      "enchantment.warden_world.wound_of_warden": "Wound Of Warden",
+      "block.warden_world.item_sculk_catalyst": "Item Sculk Catalyst",
+      "item.warden_world.sculk_guardian_spawn_egg": "Sculk Guardian Spawn Egg",
+      "entity.warden_world.sculk_blaze": "Sculk Blaze",
+      "advancements.the_deeper_dimension.title": "The Deeper Dimension",
+      "advancements.the_deeper_dimension.descr": "Go on the warden dimension",
+      "item.warden_world.sculk_creeper_spawn_egg": "Sculk Creeper Spawn Egg",
+      "item.warden_world.warden_hide_chestplate": "Warden Hide Chestplate",
+      "fluid.eee.deep_water": "Deep Water",
+      "advancements.sculk_item.descr": "craft the item skulk catalyst",
+      "advancements.wither_hunter.descr": "kill the sculk wither",
+      "item.warden_world.sculk_helmet": "Sculk Helmet",
+      "item.warden_world.warden_wither_spawn_egg": "Warden Wither Spawn Egg",
+      "block.eee.deep_water": "Deep Water",
+      "entity.warden_world.sculky_pig": "Sculky Pig",
+      "entity.warden_world.sculk_creeper": "Sculk Creeper",
+      "item.warden_world.warden_heart": "Warden Heart",
+      "item.warden_world.warden_bone": "Warden Bone",
+      "advancements.killsculk_mobs.title": "Kill sculk Mobs",
+      "item.warden_world.sculk_sword": "Sculk Sword",
+      "advancements.kill_the_lord.title": "Kill The Lord",
+      "item.warden_world.warden_lords_belt": "Warden Lord\u0027s Belt",
+      "advancements.kill_the_warden.title": "Kill The Warden",
+      "fluid.warden_world.deep_water": "Deep Water"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "warden_world",
+    "modName": "Warden World",
+    "version": "1.1.1",
+    "description": "a deep dimension",
+    "author": "Samuel Feller, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "org.samlouploup.mod.wardenworld",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

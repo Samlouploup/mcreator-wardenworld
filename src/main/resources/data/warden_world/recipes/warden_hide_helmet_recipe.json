@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "1": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "2": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "3": {
+      "item": "warden_world:warden_skin"
+    },
+    "4": {
+      "item": "warden_world:warden_skin"
+    },
+    "5": {
+      "item": "warden_world:warden_skin"
+    },
+    "6": {
+      "item": "warden_world:warden_skin"
+    },
+    "8": {
+      "item": "warden_world:warden_skin"
+    }
+  },
+  "result": {
+    "item": "warden_world:warden_hide_helmet",
+    "count": 1
+  }
+}

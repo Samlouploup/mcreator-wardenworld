@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "warden_world:block/warden_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "warden_world:block/warden_world_portal_ns"
+    }
+  }
+}

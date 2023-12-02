@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "warden_world:warden_skin"
+    },
+    "1": {
+      "item": "warden_world:warden_skin"
+    },
+    "2": {
+      "item": "warden_world:warden_skin"
+    },
+    "3": {
+      "item": "warden_world:warden_skin"
+    },
+    "4": {
+      "item": "minecraft:sculk"
+    },
+    "5": {
+      "item": "warden_world:warden_skin"
+    },
+    "6": {
+      "item": "warden_world:warden_skin"
+    },
+    "7": {
+      "item": "minecraft:sculk_vein"
+    },
+    "8": {
+      "item": "warden_world:warden_skin"
+    }
+  },
+  "result": {
+    "item": "warden_world:warden_hide_leggings",
+    "count": 1
+  }
+}

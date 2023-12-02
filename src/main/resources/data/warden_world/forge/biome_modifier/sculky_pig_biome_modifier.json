@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "deep_dark",
+  "spawners": {
+    "type": "warden_world:sculky_pig",
+    "weight": 75,
+    "minCount": 8,
+    "maxCount": 16
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "warden_world:sculk_guardian",
+    "warden_world:sculk_blaze",
+    "warden_world:warden_wither",
+    "warden",
+    "warden_world:sculk_spider",
+    "warden_world:warden_cat",
+    "warden_world:the_sculk_lord",
+    "warden_world:sculk_creeper",
+    "warden_world:little_warden"
+  ]
+}
